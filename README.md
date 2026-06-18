@@ -101,23 +101,9 @@ helm install main-service-release ./k8s-helm/nodejs-chart -n devops
 helm install reactjs-release ./k8s-helm/reactjs-chart -n devops
 helm install gateway-release ./k8s-helm/gateway-chart -n devops
 ```
-
 ---
 
-### 4. Access the Services
-
-* Frontend: http://reactjs.local/
-* API: http://api.local/
-* Edit /etc/hosts:
-
-  ```
-  127.0.0.1 reactjs.local
-  127.0.0.1 api.local
-  ```
-
----
-
-### 5. Setup GitHub Actions CI/CD
+### 4. Setup GitHub Actions CI/CD
 
 * Register your Kubernetes pod or VM as a self-hosted runner.
 * GitHub Actions workflows (.github/workflows/) will:
