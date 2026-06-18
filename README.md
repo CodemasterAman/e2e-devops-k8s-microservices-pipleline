@@ -133,12 +133,6 @@ Terraform -> Ansible -> Docker/K8s/Helm -> GitHub Actions -> Helm Deployments ->
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
 ## About the Developer
 
 Aman Behera is a Full-stack Developer focused on building scalable web systems and exploring AI-driven development. With experience across the full software development lifecycle, he maintains this repository as a reference for robust DevOps practices and microservices orchestration.
